@@ -11,14 +11,10 @@ import PortfolioNav from './nav-bar/nav-bar';
 function App() {
   return (
     <div className="App">
-      <Row>
-        {' '}
-        <PortfolioNav />
-        <Main />
-        <About />
-        <Contact />
-        <Work />
-      </Row>
+      <PortfolioNav /> <Main />
+      <About />
+      <Contact />
+      <Work />
     </div>
   );
 }

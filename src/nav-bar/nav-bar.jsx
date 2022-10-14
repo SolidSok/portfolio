@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
-export default function PortfolioNav() {
+const PortfolioNav = () => {
   return (
     <Navbar
       className="main-nav"
@@ -30,4 +30,6 @@ export default function PortfolioNav() {
       </Container>
     </Navbar>
   );
-}
+};
+
+export default PortfolioNav;
