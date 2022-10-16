@@ -14,19 +14,7 @@ const PortfolioNav = () => {
           SolidSok
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href={`/`}>
-              <b>About Me</b>
-            </Nav.Link>
-            <Nav.Link href={`/contact`}>
-              <b>Contact Me</b>
-            </Nav.Link>
-            <Nav.Link href={'/work'}>
-              <b>My Work</b>
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
       </Container>
     </Navbar>
   );

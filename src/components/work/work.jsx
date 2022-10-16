@@ -6,61 +6,7 @@ import './work.css';
 
 export default function Work() {
   return (
-    <Row>
-      <Col>
-        <Card className="Meet">
-          <Card.Body>
-            <Card.Title>
-              {' '}
-              <a
-                href="https://solidsok.github.io/meet"
-                target="_blank"
-                rel="noreferrer">
-                <h2 className="project">Meet Application</h2>
-              </a>
-            </Card.Title>{' '}
-            <Card.Img
-              className="modal-image"
-              src="src/components/work/img/meet/main.png"
-              alt="meet app"></Card.Img>
-            <Card.Text>
-              {' '}
-              <h3 className="work-description">Description:</h3>
-            </Card.Text>
-            <Card.Text>
-              {' '}
-              <p className="project-text">
-                This app pulls data from the Google Calendar API to look up
-                developer events in specific locations. It was created in React
-                while using a test-driven development approach. It can be used
-                through the browser or as an application on devices. Thanks to
-                this, it can also be used offline. Though it will only be able
-                to use whatever data was cached before.
-              </p>
-              Notable Features:
-              <ul class="modal-list">
-                <li>React</li>
-                <li>Jest</li>
-                <li>AWS Lambda</li>
-                <li>oAuth2</li>
-              </ul>
-              <a
-                href="https://github.com/SolidSok/meet"
-                target="_blank"
-                rel="noreferrer">
-                Github Repo
-              </a>
-              <br />
-              <a
-                href="https://solidsok.github.io/meet"
-                target="_blank"
-                rel="noreferrer">
-                Web Page
-              </a>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
+    <Row className="work">
       <Col>
         <Card className="myFlix-React">
           {' '}

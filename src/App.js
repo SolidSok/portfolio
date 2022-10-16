@@ -1,5 +1,4 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Work from './components/work/work';
@@ -12,14 +11,15 @@ import Tabs from 'react-bootstrap/Tabs';
 function App() {
   return (
     <div className="app">
-      <Tabs defaultActiveKey={'about'}>
-        <Tab eventKey={'about'} title="about">
+      <PortfolioNav />
+      <Tabs defaultActiveKey={'about'} className="mb-3">
+        <Tab eventKey={'about'} title="About">
           <About />
         </Tab>
-        <Tab eventKey={'work'} title="work">
+        <Tab eventKey={'work'} title="My Work">
           <Work />
         </Tab>
-        <Tab eventKey={'contact'} title="contact">
+        <Tab eventKey={'contact'} title="Contact Me">
           <Contact />
         </Tab>
       </Tabs>

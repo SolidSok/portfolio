@@ -1,4 +1,20 @@
-Work {
+.work {
   display: flex;
   justify-content: center;
+  color: #2b2b2b;
+}
+
+.workmain {
+  padding: 20px;
+  margin: 15px;
+}
+.work-description {
+  text-align: left;
+}
+
+.project-text {
+  padding-left: 5px;
+}
+.project {
+  color: #2b2b2b;
 }
