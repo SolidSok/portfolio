@@ -1,20 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-import { Row } from 'react-bootstrap';
-
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
-import Main from './components/main/main';
 import Work from './components/work/work';
 import PortfolioNav from './nav-bar/nav-bar';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
+// implement routing to only show one component at a time
 
 function App() {
   return (
-    <div className="App">
-      <PortfolioNav /> <Main />
-      <About />
-      <Contact />
-      <Work />
+    <div className="app">
+      <Tabs defaultActiveKey={'about'}>
+        <Tab eventKey={'about'} title="about">
+          <About />
+        </Tab>
+        <Tab eventKey={'work'} title="work">
+          <Work />
+        </Tab>
+        <Tab eventKey={'contact'} title="contact">
+          <Contact />
+        </Tab>
+      </Tabs>
     </div>
   );
 }
