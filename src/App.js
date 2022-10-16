@@ -5,24 +5,26 @@ import Work from './components/work/work';
 import PortfolioNav from './nav-bar/nav-bar';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-
+import { Container } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 // implement routing to only show one component at a time
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <PortfolioNav />
-      <Tabs defaultActiveKey={'about'} className="mb-3">
-        <Tab eventKey={'about'} title="About">
-          <About />
-        </Tab>
-        <Tab eventKey={'work'} title="My Work">
-          <Work />
-        </Tab>
-        <Tab eventKey={'contact'} title="Contact Me">
-          <Contact />
-        </Tab>
-      </Tabs>
+      <Container className="app" fluid>
+        <Tabs defaultActiveKey={'about'} className="mb-3">
+          <Tab eventKey={'about'} title="About">
+            <About />
+            <Contact />
+          </Tab>
+          <Tab eventKey={'work'} title="My Work">
+            <Work />
+          </Tab>
+          {/* <Tab eventKey={'contact'} title="Contact Me"></Tab> */}
+        </Tabs>
+      </Container>
     </div>
   );
 }

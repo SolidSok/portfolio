@@ -13,10 +13,9 @@ Secondary Color (Orange): #e0b354;
 * {
   box-sizing: border-box;
 }
-/* .app {
-  justify-content: center;
-  display: flex;
-} */
+.app {
+  display: inline-block;
+}
 body {
   background-color: var(--primary-color);
   font-family: 'Lato', sans-serif;

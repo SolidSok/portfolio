@@ -18,3 +18,12 @@
 .project {
   color: #2b2b2b;
 }
+
+.img {
+  width: 30%;
+  padding-inline: 2%;
+}
+
+.myflix-img {
+  width: 80%;
+}
