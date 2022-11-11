@@ -15,7 +15,7 @@ export default function Work() {
               {' '}
               <Card.Body>
                 <Card.Img
-                  className="myflix-img"
+                  className="myflix-img img"
                   src={require('./img/myFlix/main.png')}
                 />
                 <Card.Title>
@@ -92,11 +92,6 @@ export default function Work() {
                     provide users with a chat interface and options to share
                     images and their location.
                   </p>
-                  <img
-                    class="modal-image"
-                    src="img/chat-app/Screenshot (Oct 13, 2022 12_45_04 PM).png"
-                    alt="chat app  "
-                  />
                   Notable Features:
                   <ul class="modal-list">
                     <li>React Native</li>
@@ -115,7 +110,7 @@ export default function Work() {
                 {' '}
                 <Card.Body>
                   <Card.Img
-                    className="angular-img"
+                    className="angular-img img"
                     src={require('./img/myFlix-Angular/main.jpg')}
                   />
                   <Card.Title>
@@ -134,11 +129,6 @@ export default function Work() {
                       existing server-side code (REST API and database), with
                       supporting documentation.
                     </p>
-                    <img
-                      class="modal-image"
-                      src="img/myFlix-Angular/main.jpg"
-                      alt="myflix angular "
-                    />
                     Notable Features:
                     <ul class="modal-list">
                       <li>Angular</li>

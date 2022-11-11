@@ -1,8 +1,15 @@
 .about {
-  display: inline-block;
   padding-left: 1%;
   box-sizing: border-box;
+  justify-content: center;
+  display: grid;
 }
 .image {
   width: 30%;
+  justify-content: left;
+}
+.bio {
+  width: 40%;
+  justify-content: center;
+  padding-left: 3%;
 }
