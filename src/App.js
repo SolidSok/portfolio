@@ -6,7 +6,6 @@ import PortfolioNav from './nav-bar/nav-bar';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { Container } from 'react-bootstrap';
-import { Image } from 'react-bootstrap';
 // implement routing to only show one component at a time
 
 function App() {
@@ -22,6 +21,7 @@ function App() {
           <Tab eventKey={'work'} title="My Work">
             <Work />
           </Tab>
+
           {/* <Tab eventKey={'contact'} title="Contact Me"></Tab> */}
         </Tabs>
       </Container>

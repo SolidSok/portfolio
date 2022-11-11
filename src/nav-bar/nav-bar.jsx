@@ -11,7 +11,7 @@ const PortfolioNav = () => {
       variant="dark">
       <Container fluid>
         <Navbar.Brand className="nav-logo" href="/">
-          SolidSok
+          Steven Sok{' '}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="nav-bar">
