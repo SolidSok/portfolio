@@ -9,6 +9,7 @@ export default function Contact() {
         <br />
         <b>LinkedIn</b>:{' '}
         <a
+          className="links"
           href="https://www.linkedin.com/in/steven-sok-bb2341201/"
           rel="noreferrer"
           target="_blank">
@@ -16,16 +17,27 @@ export default function Contact() {
         </a>
         <br />
         <b>Twitter</b>:{' '}
-        <a href="https://twitter.com/solidsok" target="_blank" rel="noreferrer">
+        <a
+          className="links"
+          href="https://twitter.com/solidsok"
+          target="_blank"
+          rel="noreferrer">
           @SolidSok{' '}
         </a>
         <br />
         <b>GitHub</b>:{' '}
-        <a href="https://github.com/SolidSok" target="_blank" rel="noreferrer">
+        <a
+          className="links"
+          href="https://github.com/SolidSok"
+          target="_blank"
+          rel="noreferrer">
           SolidSok
         </a>
         <br />
-        <b>Email:</b> <a href="mailto:sokidsok@gmail.com">Solidsok@gmail.com</a>
+        <b>Email:</b>{' '}
+        <a className="links" href="mailto:sokidsok@gmail.com">
+          Solidsok@gmail.com
+        </a>
       </address>
     </div>
   );

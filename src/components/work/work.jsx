@@ -1,17 +1,18 @@
 import React from 'react';
-import { Card, Row, Col, Container, Badge } from 'react-bootstrap';
+import { Card, Row, Col, Container, Badge, Image } from 'react-bootstrap';
 import './work.css';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import MyFlixCaseStudy from './myFlixCaseStudy';
 
 export default function Work() {
   return (
-    <Container>
+    <Container className="work-container" fluid>
       {' '}
       <Row className="work">
         <Tabs>
           <Tab eventKey={'myflix-react'} title="myFlix(React)">
-            <Card className="myFlix-React">
+            <div className="project-body">
               {' '}
               <Card.Body>
                 <Card.Title>
@@ -22,8 +23,8 @@ export default function Work() {
                     <h2 class="project">myFlix Web App</h2>
                   </a>
                 </Card.Title>{' '}
-                <Card.Img
-                  className="myflix-img img"
+                <Image
+                  className="project-img"
                   src={require('./img/myFlix/main.png')}
                 />
                 <Card.Text>
@@ -34,7 +35,7 @@ export default function Work() {
                       <Badge bg="info">React-Bootstrap</Badge>{' '}
                       <Badge bg="info">Axios</Badge>{' '}
                       <Badge bg="info">React-Router</Badge>{' '}
-                      <Badge bg="info">Ract-Redux</Badge>{' '}
+                      <Badge bg="info">React-Redux</Badge>{' '}
                     </h1>
                   </Row>
                   <p class="project-text">
@@ -44,33 +45,36 @@ export default function Work() {
                     comes from react-bootstrap. Both the front-end and back-end
                     for this application were created from scratch by me.
                   </p>
-                  <Badge>
+                  <h2>
                     {' '}
-                    <a
-                      className="a-link"
-                      href="https://github.com/SolidSok/myFlix-client"
-                      target="_blank"
-                      rel="noreferrer">
-                      Github Repo
-                    </a>
-                  </Badge>
-                  <br></br>
-                  <Badge>
-                    {' '}
-                    <a
-                      className="a-link"
-                      href="https://sokflix.netlify.app"
-                      target="_blank"
-                      rel="noreferrer">
-                      WebPage
-                    </a>
-                  </Badge>
+                    <Badge>
+                      {' '}
+                      <a
+                        className="a-link"
+                        href="https://github.com/SolidSok/myFlix-client"
+                        target="_blank"
+                        rel="noreferrer">
+                        Github Repo
+                      </a>
+                    </Badge>{' '}
+                    <Badge>
+                      <a
+                        className="a-link"
+                        href="https://sokflix.netlify.app"
+                        target="_blank"
+                        rel="noreferrer">
+                        WebPage
+                      </a>
+                    </Badge>
+                  </h2>
+
+                  <MyFlixCaseStudy />
                 </Card.Text>
               </Card.Body>
-            </Card>
+            </div>
           </Tab>
           <Tab eventKey={'chat-app'} title="chat-app">
-            <Card className="Chat-App">
+            <div className="project-body">
               {' '}
               <Card.Body>
                 <Card.Title>
@@ -118,12 +122,12 @@ export default function Work() {
                   </Badge>
                 </Card.Text>
               </Card.Body>
-            </Card>
+            </div>
           </Tab>
           <Tab eventKey={'myflix-angular'} title="myFlix(Angular)">
             <Col>
               {' '}
-              <Card className="myFlix-Angular">
+              <div className="project-body">
                 {' '}
                 <Card.Body>
                   <Card.Title>
@@ -152,30 +156,35 @@ export default function Work() {
                       existing server-side code (REST API and database), with
                       supporting documentation.
                     </p>
-                    <Badge>
+                    <h2>
                       {' '}
-                      <a
-                        className="a-link"
-                        href="https://github.com/SolidSok/myFlix-Angular-client"
-                        target="_blank"
-                        rel="noreferrer">
-                        Github Repo
-                      </a>
-                    </Badge>
-                    <br />
-                    <Badge>
+                      <Badge>
+                        {' '}
+                        <a
+                          className="a-link"
+                          href="https://github.com/SolidSok/myFlix-Angular-client"
+                          target="_blank"
+                          rel="noreferrer">
+                          Github Repo
+                        </a>
+                      </Badge>
+                    </h2>{' '}
+                    <h2>
                       {' '}
-                      <a
-                        className="a-link"
-                        href="https://solidsok.github.io/myFlix-Angular-client/welcome"
-                        target="_blank"
-                        rel="noreferrer">
-                        WebPage
-                      </a>
-                    </Badge>
+                      <Badge>
+                        {' '}
+                        <a
+                          className="a-link"
+                          href="https://solidsok.github.io/myFlix-Angular-client/welcome"
+                          target="_blank"
+                          rel="noreferrer">
+                          WebPage
+                        </a>
+                      </Badge>
+                    </h2>
                   </Card.Text>
                 </Card.Body>
-              </Card>
+              </div>
             </Col>
           </Tab>
         </Tabs>

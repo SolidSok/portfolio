@@ -3,7 +3,10 @@
 
   padding-bottom: 4%;
 }
-
+.work-container {
+  display: flex;
+  justify-content: center;
+}
 .workmain {
   padding: 20px;
   margin: 15px;
@@ -12,14 +15,32 @@
   text-align: left;
 }
 
+.project-body {
+  background-color: rgba(255, 255, 255, 0.459);
+}
 .project-text {
   padding-left: 5px;
   color: #2b2b2b;
+  text-align: center;
 }
 .project {
   color: #2b2b2b;
 }
 
+.myflix-case-study {
+  display: flex;
+}
+
+.case-study-img {
+  width: 15rem;
+}
+.update-user-img {
+  justify-content: end;
+}
+.project-img {
+  width: 40rem;
+  justify-content: center;
+}
 .img {
   width: 30%;
   padding-inline: 2%;
@@ -30,6 +51,10 @@
   justify-content: center;
 }
 
-/* .myflix-img {
-  width: 80%;
-} */
+.a-link {
+  color: white;
+}
+
+.accordion-text {
+  justify-content: center;
+}

@@ -3,17 +3,6 @@ import './about.css';
 import { Image, Row, Col, Button } from 'react-bootstrap';
 
 function About() {
-  const downloadResume = () => {
-    fetch('resume.pdf').then(response => {
-      response.blob().then(blob => {
-        const fileURL = window.URL.createObjectURL(blob);
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'resume.pdf';
-        alink.click();
-      });
-    });
-  };
   return (
     <div className="about">
       <Row>
@@ -47,8 +36,10 @@ function About() {
               effective and easy to understand. I want to grow from each of
               these experiences and constantly face new challenges.
             </p>
-            <Button variant="info" onClick={downloadResume}>
-              Download my Resume
+            <Button className="resume" variant="primary">
+              <a href="resume.pdf" download>
+                Download my CV
+              </a>
             </Button>
           </div>
         </Col>

@@ -3,9 +3,10 @@
   text-align: right;
   padding-right: 6%;
   float: right;
-  background-color: rgba(139, 145, 145, 0.288);
+  background-color: rgba(255, 255, 255, 0.459);
   padding: 2%;
   width: 25%;
+  color: #2b2b2b;
 }
 
 .contactmain {
@@ -15,5 +16,9 @@
 }
 
 a {
-  color: rgb(210, 217, 223);
+  color: rgb(218, 211, 211);
+}
+
+.links {
+  color: rgb(49, 65, 133);
 }
