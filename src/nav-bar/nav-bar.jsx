@@ -34,7 +34,7 @@ const PortfolioNav = () => {
       expand="lg"
       variant="dark">
       <Container fluid>
-        <Navbar.Brand className="nav-logo" href="/">
+        <Navbar.Brand className="nav-logo" href="/portfolio2">
           Steven Sok{' '}
         </Navbar.Brand>
         <Button variant="secondary" id="myBtn" onClick={topFunction}>
