@@ -5,8 +5,7 @@ import Work from './components/work/work';
 import PortfolioNav from './nav-bar/nav-bar';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { Container } from 'react-bootstrap';
-import MyFlixCaseStudy from './components/work/myFlixCaseStudy';
+import { Container, Row } from 'react-bootstrap';
 // implement routing to only show one component at a time
 
 function App() {
@@ -14,11 +13,15 @@ function App() {
     <div>
       <PortfolioNav />
 
-      <Container className="app" fluid>
+      <Container className="app">
         <Tabs defaultActiveKey={'about'} className="mb-3">
           <Tab eventKey={'about'} title="About">
-            <About />
-            <Contact />
+            <Row>
+              <About />
+            </Row>
+            <Row className="contact">
+              <Contact />
+            </Row>
           </Tab>
           <Tab eventKey={'work'} title="My Work">
             <Work />

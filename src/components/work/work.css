@@ -5,7 +5,7 @@
 }
 .work-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .workmain {
   padding: 20px;
@@ -15,32 +15,39 @@
   text-align: left;
 }
 
+.project {
+  color: #2b2b2b;
+}
+.project-img {
+  width: 300px;
+  justify-content: center;
+  padding: 2%;
+}
 .project-body {
   background-color: rgba(255, 255, 255, 0.459);
+  padding: 2%;
 }
 .project-text {
   padding-left: 5px;
   color: #2b2b2b;
   text-align: center;
 }
-.project {
-  color: #2b2b2b;
-}
 
 .myflix-case-study {
   display: flex;
 }
 
+.case-study {
+  justify-content: center;
+  text-align: center;
+}
 .case-study-img {
   width: 15rem;
 }
 .update-user-img {
   justify-content: end;
 }
-.project-img {
-  width: 40rem;
-  justify-content: center;
-}
+
 .img {
   width: 30%;
   padding-inline: 2%;
@@ -49,10 +56,6 @@
 
 .badges {
   justify-content: center;
-}
-
-.a-link {
-  color: white;
 }
 
 .accordion-text {

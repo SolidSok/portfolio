@@ -36,7 +36,7 @@ export default function Contact() {
         <br />
         <b>Email:</b>{' '}
         <a className="links" href="mailto:sokidsok@gmail.com">
-          Solidsok@gmail.com
+          stevenysok@gmail.com
         </a>
       </address>
     </div>

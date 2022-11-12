@@ -1,8 +1,7 @@
 .about {
   padding-left: 1%;
-  box-sizing: border-box;
   justify-content: center;
-  display: grid;
+  display: flex;
 }
 .image {
   width: 30%;
@@ -11,5 +10,15 @@
 .bio {
   background-color: rgba(255, 255, 255, 0.459);
   padding: 2%;
-  color: #2b2b2b;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.profile__portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
 }
