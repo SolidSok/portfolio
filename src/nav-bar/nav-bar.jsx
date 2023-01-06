@@ -45,7 +45,7 @@ const PortfolioNav = () => {
           {' '}
           <h3 className="nav-text"> Find me on: </h3>
           <Nav>
-            <Button size="sm">
+            <Button className="social-button" size="sm">
               {' '}
               <a
                 href="https://github.com/SolidSok"
@@ -56,7 +56,7 @@ const PortfolioNav = () => {
               </a>
             </Button>
 
-            <Button size="sm">
+            <Button className="social-button" size="sm">
               {' '}
               <a
                 href="https://twitter.com/solidsok"
@@ -66,7 +66,7 @@ const PortfolioNav = () => {
               </a>
             </Button>
 
-            <Button size="sm">
+            <Button className="social-button" size="sm">
               <a
                 href="https://www.linkedin.com/in/steven-sok-bb2341201/"
                 rel="noreferrer"

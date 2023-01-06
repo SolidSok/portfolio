@@ -9,3 +9,7 @@ img {
 .nav-text {
   color: white;
 }
+
+.social-button {
+  border-radius: 45%;
+}
