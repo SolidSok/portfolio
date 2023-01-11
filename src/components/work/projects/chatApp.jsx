@@ -1,4 +1,4 @@
-import { Card, Row, Col, Container, Badge, Image } from 'react-bootstrap';
+import { Card, Row, Badge } from 'react-bootstrap';
 
 export function ChatApp() {
   return (

@@ -4,11 +4,18 @@ import './work.css';
 
 import MyFlixReact from './projects/myFlixReact';
 import { ChatApp } from './projects/chatApp';
-import MyFlixAngular from './projects/myFlixAngular';
+import EorzeanCuisine from './projects/eorzeanCuisine';
 export default function Work() {
   return (
     <Container className="work-container" fluid="md">
       <Row>
+        <Col>
+          {' '}
+          <Card border="secondary">
+            {' '}
+            <EorzeanCuisine />
+          </Card>{' '}
+        </Col>
         <Col>
           {' '}
           <Card border="secondary">
@@ -21,13 +28,6 @@ export default function Work() {
           <Card border="secondary">
             {' '}
             <ChatApp />
-          </Card>
-        </Col>
-        <Col>
-          {' '}
-          <Card border="secondary">
-            {' '}
-            <MyFlixAngular />
           </Card>
         </Col>
       </Row>

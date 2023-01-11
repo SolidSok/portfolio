@@ -19,12 +19,12 @@ function App() {
             <Row>
               <About />
             </Row>
-            <Row className="contact">
-              <Contact />
-            </Row>
           </Tab>
           <Tab eventKey={'work'} title="My Work">
             <Work />
+          </Tab>
+          <Tab eventKey={'contact'} title="Contact Me">
+            <Contact />
           </Tab>
         </Tabs>
       </Container>
