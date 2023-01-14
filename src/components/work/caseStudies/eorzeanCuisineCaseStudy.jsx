@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import '../work.css';
+
 import { Container, Image, Modal, Button, Row, Col } from 'react-bootstrap';
 
-export default function MyFlixCaseStudy() {
+export default function EorzeanCuisineCaseStudy() {
   const [show, setShow] = useState(false);
 
   return (
@@ -13,7 +14,7 @@ export default function MyFlixCaseStudy() {
       <Modal show={show} onHide={() => setShow(false)} size="lg">
         <Modal.Header closeButton>
           <Modal.Title>
-            <h1>Case Study: myFlix</h1>
+            <h1>Case Study: EorzeanCuisine</h1>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -28,10 +29,12 @@ export default function MyFlixCaseStudy() {
             <Col>
               <h2>Overview</h2>
               <p>
-                myFlix is a web app built in React. It pulls data from a custom
-                built API to present information about movies, directors, and
-                genres. Users are able to create accounts, update their user
-                information, and edit their list of favorite movies.
+                Eorzean Cuisine is a web app that is meant to simulate a
+                restaurant page. It takes recipes from the critically acclaimed
+                mmorpg, Final Fantasy 14, and presents them in the form of a
+                menu. Data for each menu item is pulled from a database on
+                MongoDB. The client uses a custom REST API that I made using
+                node and express.
               </p>
               <h2>Purpose and Objective</h2>
               <p>
