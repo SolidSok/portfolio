@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.e244ccad.css",
-    "main.js": "/portfolio2/static/js/main.f617b431.js",
-    "static/media/main.png": "/portfolio2/static/media/main.428fa6a816b6f7d429ca.png",
-    "static/media/2.png": "/portfolio2/static/media/2.c6f0aa5a59e0776687a4.png",
-    "static/media/3.png": "/portfolio2/static/media/3.4fcbd96b8724d55cd8da.png",
-    "static/media/eorzeanCuisine.png": "/portfolio2/static/media/eorzeanCuisine.09a244d720ad93345ada.png",
-    "static/media/myFlix-card.png": "/portfolio2/static/media/myFlix-card.e62f0279c9e1cf38e9e9.png",
-    "static/media/me.jpg": "/portfolio2/static/media/me.ce301c04c93c0db684e9.jpg",
-    "static/media/myFlix-update-info.png": "/portfolio2/static/media/myFlix-update-info.0149dcb86ee80b127924.png",
-    "index.html": "/portfolio2/index.html",
-    "main.e244ccad.css.map": "/portfolio2/static/css/main.e244ccad.css.map",
-    "main.f617b431.js.map": "/portfolio2/static/js/main.f617b431.js.map"
+    "main.css": "/portfolio/static/css/main.e244ccad.css",
+    "main.js": "/portfolio/static/js/main.daf1a082.js",
+    "static/media/main.png": "/portfolio/static/media/main.428fa6a816b6f7d429ca.png",
+    "static/media/2.png": "/portfolio/static/media/2.c6f0aa5a59e0776687a4.png",
+    "static/media/3.png": "/portfolio/static/media/3.4fcbd96b8724d55cd8da.png",
+    "static/media/eorzeanCuisine.png": "/portfolio/static/media/eorzeanCuisine.09a244d720ad93345ada.png",
+    "static/media/myFlix-card.png": "/portfolio/static/media/myFlix-card.e62f0279c9e1cf38e9e9.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.ce301c04c93c0db684e9.jpg",
+    "static/media/myFlix-update-info.png": "/portfolio/static/media/myFlix-update-info.0149dcb86ee80b127924.png",
+    "index.html": "/portfolio/index.html",
+    "main.e244ccad.css.map": "/portfolio/static/css/main.e244ccad.css.map",
+    "main.daf1a082.js.map": "/portfolio/static/js/main.daf1a082.js.map"
   },
   "entrypoints": [
     "static/css/main.e244ccad.css",
-    "static/js/main.f617b431.js"
+    "static/js/main.daf1a082.js"
   ]
 }
