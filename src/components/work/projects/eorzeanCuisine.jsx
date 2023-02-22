@@ -43,6 +43,15 @@ export default function EorzeanCuisine() {
                 Github Repo
               </a>
             </Badge>
+            <Badge>
+              <a
+                className="a-link"
+                href="https://eorzean-cuisine-client.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer">
+                WebPage
+              </a>
+            </Badge>
           </h2>
         </Card.Text>
       </Card.Body>
