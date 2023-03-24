@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e244ccad.css",
-    "main.js": "/portfolio/static/js/main.daf1a082.js",
+    "main.css": "/portfolio/static/css/main.4d394f34.css",
+    "main.js": "/portfolio/static/js/main.3c56a925.js",
     "static/media/main.png": "/portfolio/static/media/main.428fa6a816b6f7d429ca.png",
-    "static/media/2.png": "/portfolio/static/media/2.c6f0aa5a59e0776687a4.png",
+    "static/media/2.png": "/portfolio/static/media/2.817eaa485e15c11295a7.png",
     "static/media/3.png": "/portfolio/static/media/3.4fcbd96b8724d55cd8da.png",
     "static/media/eorzeanCuisine.png": "/portfolio/static/media/eorzeanCuisine.09a244d720ad93345ada.png",
+    "static/media/1.png": "/portfolio/static/media/1.d54bf24bd42c18bde91b.png",
     "static/media/myFlix-card.png": "/portfolio/static/media/myFlix-card.e62f0279c9e1cf38e9e9.png",
     "static/media/me.jpg": "/portfolio/static/media/me.ce301c04c93c0db684e9.jpg",
     "static/media/myFlix-update-info.png": "/portfolio/static/media/myFlix-update-info.0149dcb86ee80b127924.png",
     "index.html": "/portfolio/index.html",
-    "main.e244ccad.css.map": "/portfolio/static/css/main.e244ccad.css.map",
-    "main.daf1a082.js.map": "/portfolio/static/js/main.daf1a082.js.map"
+    "main.4d394f34.css.map": "/portfolio/static/css/main.4d394f34.css.map",
+    "main.3c56a925.js.map": "/portfolio/static/js/main.3c56a925.js.map"
   },
   "entrypoints": [
-    "static/css/main.e244ccad.css",
-    "static/js/main.daf1a082.js"
+    "static/css/main.4d394f34.css",
+    "static/js/main.3c56a925.js"
   ]
 }
