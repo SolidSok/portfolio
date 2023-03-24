@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import { Image, Row, Col, Container, Card, Badge } from 'react-bootstrap';
+import Contact from '../contact/contact';
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
               alt="A photograph of me"
             />
             <Card
-              style={{ backgroundColor: 'rgba(255, 255, 255, 0.459)' }}
+              style={{ backgroundColor: 'rgba(255, 255, 255, 0.733)' }}
               className="text-center">
               <Card.Header>
                 <b>My Toolkit</b>
@@ -25,30 +26,29 @@ export default function About() {
               <Card.Body>
                 <Card.Text>
                   {' '}
-                  <Badge bg="warning">HTML</Badge>{' '}
-                  <Badge bg="warning">JavaScript</Badge>{' '}
-                  <Badge bg="warning">TypeScript</Badge>{' '}
+                  <Badge bg="info">HTML</Badge>{' '}
+                  <Badge bg="info">JavaScript</Badge>{' '}
+                  <Badge bg="info">TypeScript</Badge>{' '}
                 </Card.Text>
                 <Card.Text>
                   {' '}
-                  <Badge bg="warning">React</Badge>{' '}
-                  <Badge bg="warning">Angular</Badge>{' '}
-                  <Badge bg="warning">jQuery</Badge>{' '}
-                  <Badge bg="warning">BootStrap</Badge>{' '}
-                  <Badge bg="warning">React Native</Badge> <br />
+                  <Badge bg="info">React</Badge>{' '}
+                  <Badge bg="info">Angular</Badge>{' '}
+                  <Badge bg="info">jQuery</Badge>{' '}
+                  <Badge bg="info">BootStrap</Badge>{' '}
+                  <Badge bg="info">React Native</Badge> <br />
                 </Card.Text>
                 <Card.Text>
                   {' '}
-                  <Badge bg="warning">NodeJS</Badge>
-                  <Badge bg="warning">Express</Badge>{' '}
+                  <Badge bg="info">NodeJS</Badge>
+                  <Badge bg="info">Express</Badge>{' '}
                 </Card.Text>
 
                 <Card.Text>
                   {' '}
-                  <Badge bg="warning">MongoDB</Badge>{' '}
-                  <Badge bg="warning">AWS</Badge>{' '}
-                  <Badge bg="warning">Google Firestore</Badge>{' '}
-                  <Badge bg="warning">PostgreSQL</Badge>{' '}
+                  <Badge bg="info">MongoDB</Badge> <Badge bg="info">AWS</Badge>{' '}
+                  <Badge bg="info">Google Firestore</Badge>{' '}
+                  <Badge bg="info">PostgreSQL</Badge>{' '}
                 </Card.Text>
                 <Card.Text></Card.Text>
               </Card.Body>
@@ -86,6 +86,9 @@ export default function About() {
               new challenges.
             </p>
           </Card>
+        </Col>
+        <Col md={3}>
+          <Contact />
         </Col>
       </Row>
     </Container>

@@ -7,7 +7,7 @@ export default function MyFlixCaseStudy() {
 
   return (
     <Container className="case-study" fluid>
-      <Button variant="warning" onClick={() => setShow(true)}>
+      <Button variant="success" onClick={() => setShow(true)}>
         <h2>Case Study</h2>
       </Button>
       <Modal show={show} onHide={() => setShow(false)} size="lg">

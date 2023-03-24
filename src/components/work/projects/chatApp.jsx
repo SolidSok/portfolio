@@ -1,30 +1,27 @@
-import { Card, Row, Badge } from 'react-bootstrap';
+import { Card, Badge, Button } from 'react-bootstrap';
 
 export function ChatApp() {
   return (
-    <div className="project-body">
+    <Card className="text-center">
       {' '}
+      <Card.Header>
+        {' '}
+        <Button
+          variant="none"
+          href="https://github.com/SolidSok/chat-app"
+          target="_blank"
+          rel="noreferrer">
+          <h2 class="project">React Native Chat App</h2>
+        </Button>
+      </Card.Header>{' '}
       <Card.Body>
-        <Card.Header>
-          <a
-            href="https://github.com/SolidSok/chat-app"
-            target="_blank"
-            rel="noreferrer">
-            <h2 class="project">React Native Chat App</h2>
-          </a>
-        </Card.Header>{' '}
         <Card.Img className="img" src={require('../img/chat-app/main.png')} />
         <Card.Img className="img" src={require('../img/chat-app/2.png')} />
         <Card.Img className="img" src={require('../img/chat-app/3.png')} />
-        <Row className="badges">
-          {' '}
-          <h1>
-            <Badge bg="info">React Native</Badge> <Badge bg="info">Expo</Badge>{' '}
-            <Badge bg="info">Firebase</Badge>
-          </h1>
-        </Row>
+        <br />
+        <Badge bg="info">React Native</Badge> <Badge bg="info">Expo</Badge>{' '}
+        <Badge bg="info">Firebase</Badge>
         <Card.Text>
-          <h3 class="work-description">Description:</h3>
           <p class="project-text">
             Chat app for mobile devices using React Native. The app will provide
             users with a chat interface and options to share images and their
@@ -32,15 +29,16 @@ export function ChatApp() {
           </p>
           <h2>
             {' '}
-            <Badge>
+            <Button
+              variant="warning"
+              href="https://github.com/SolidSok/chat-app"
+              target="_blank">
               {' '}
-              <a className="a-link" href="https://github.com/SolidSok/chat-app">
-                Github Repo
-              </a>
-            </Badge>
+              Github Repo
+            </Button>
           </h2>
         </Card.Text>
       </Card.Body>
-    </div>
+    </Card>
   );
 }

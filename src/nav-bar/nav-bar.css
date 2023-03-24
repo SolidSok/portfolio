@@ -1,5 +1,6 @@
 .nav-bar {
   justify-content: end;
+  padding-left: 5px;
 }
 
 img {
@@ -11,15 +12,13 @@ img {
 }
 
 .social-button {
-  border-radius: 35%;
+  border-radius: 50%;
   background-color: rgb(111, 174, 216);
   border: none;
   margin: 2px;
 }
 
 .resume {
-  background-color: rgb(150, 94, 202);
   border: none;
-  border-radius: 10%;
   margin: 5px;
 }

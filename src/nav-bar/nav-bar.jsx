@@ -2,30 +2,6 @@ import React from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
 import './nav-bar.css';
 const PortfolioNav = () => {
-  // Get the button
-  let mybutton = document.getElementById('myBtn');
-
-  // When the user scrolls down 30px from the top of the document, show the button
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 30 ||
-      document.documentElement.scrollTop > 30
-    ) {
-      mybutton.style.display = 'block';
-    } else {
-      mybutton.style.display = 'none';
-    }
-  }
-
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
   return (
     <Navbar
       className="main-nav"
@@ -34,12 +10,10 @@ const PortfolioNav = () => {
       expand="lg"
       variant="dark">
       <Container fluid>
-        <Navbar.Brand className="nav-logo" href="/portfolio2">
+        <Navbar.Brand className="nav-logo" href="/portfolio">
           Steven Sok{' '}
         </Navbar.Brand>
-        <Button variant="secondary" id="myBtn" onClick={topFunction}>
-          Top
-        </Button>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="nav-bar">
           {' '}
@@ -75,11 +49,9 @@ const PortfolioNav = () => {
               </a>
             </Button>
 
-            <Button size="sm" className="resume" variant="info">
-              <a href="resume.pdf" download>
-                Download my CV
-              </a>
-            </Button>
+            <a href="resume.pdf" download className="resume">
+              Download my CV
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>
