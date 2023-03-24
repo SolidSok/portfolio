@@ -19,7 +19,6 @@ function App() {
           <Route path="/" element={<PortfolioNav />}></Route>
           <Route index element={<About />} />
           <Route path="work" element={<Work />} />
-          <Route path="*" element={<About />} />
         </Routes>
 
         <Contact />
