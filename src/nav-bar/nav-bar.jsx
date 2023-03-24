@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
+import { Link, Outlet } from 'react-router-dom';
 import './nav-bar.css';
 const PortfolioNav = () => {
   // Get the button
