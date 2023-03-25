@@ -36,13 +36,12 @@ export default function EngageBuilder() {
             growths and limits all in one spot.
           </p>
           <h2>
-            {' '}
             <Button
               variant="info"
               href="https://github.com/SolidSok/fe-engage"
               target="_blank">
               Github Repo
-            </Button>
+            </Button>{' '}
             <Button
               variant="warning"
               href="https://engagebuilder.netlify.app"

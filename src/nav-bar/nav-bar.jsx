@@ -19,34 +19,29 @@ const PortfolioNav = () => {
           {' '}
           <h3 className="nav-text"> Find me on: </h3>
           <Nav>
-            <Button className="social-button" size="sm">
-              {' '}
-              <a
-                href="https://github.com/SolidSok"
-                target="_blank"
-                rel="noreferrer"
-                on>
-                <img src={require('./img/github.png')} alt="Github" />
-              </a>
+            <Button
+              className="social-button"
+              href="https://github.com/SolidSok"
+              target="_blank"
+              size="sm">
+              <img src={require('./img/github.png')} alt="Github" />
             </Button>
 
-            <Button className="social-button" size="sm">
+            <Button
+              className="social-button"
+              href="https://twitter.com/solidsok"
+              target="_blank"
+              size="sm">
               {' '}
-              <a
-                href="https://twitter.com/solidsok"
-                target="_blank"
-                rel="noreferrer">
-                <img src={require('./img/twitter.png')} alt="twitter" />
-              </a>
+              <img src={require('./img/twitter.png')} alt="twitter" />
             </Button>
 
-            <Button className="social-button" size="sm">
-              <a
-                href="https://www.linkedin.com/in/steven-sok-bb2341201/"
-                rel="noreferrer"
-                target="_blank">
-                <img src={require('./img/linkedin.png')} alt="LinkedIn" />
-              </a>
+            <Button
+              className="social-button"
+              href="https://www.linkedin.com/in/steven-sok-bb2341201/"
+              rel="noreferrer"
+              size="sm">
+              <img src={require('./img/linkedin.png')} alt="LinkedIn" />
             </Button>
 
             <a href="resume.pdf" download className="resume">

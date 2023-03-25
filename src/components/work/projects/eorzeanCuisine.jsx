@@ -18,7 +18,7 @@ export default function EorzeanCuisine() {
         <Card.Img
           className="img cuisine"
           src={require('../img/eorzean-cuisine/eorzeanCuisine.png')}
-        />{' '}
+        />
         <br />
         <Badge bg="info">Restful API</Badge> <Badge bg="info">Axios</Badge>{' '}
         <Badge bg="info">MongoDB</Badge> <Badge bg="info">Express</Badge>{' '}
@@ -33,7 +33,7 @@ export default function EorzeanCuisine() {
           variant="info"
           href="https://github.com/SolidSok/eorzean-cuisine">
           Github Repo
-        </Button>
+        </Button>{' '}
         <Button
           variant="warning"
           href="https://eorzean-cuisine-client.herokuapp.com/"
