@@ -21,10 +21,10 @@ const PortfolioNav = () => {
             {' '}
             <Nav>
               <Nav.Item>
-                <Nav.Link href="/">About Me</Nav.Link>
+                <Nav.Link href="/portfolio">About Me</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/work">My Work</Nav.Link>
+                <Nav.Link href="portfolio/work">My Work</Nav.Link>
               </Nav.Item>
               <Button
                 variant="info"
