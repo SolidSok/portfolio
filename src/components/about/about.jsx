@@ -1,6 +1,14 @@
 import React from 'react';
 import './about.css';
-import { Image, Row, Col, Container, Card, Badge } from 'react-bootstrap';
+import {
+  Image,
+  Row,
+  Col,
+  Container,
+  Card,
+  Badge,
+  Button,
+} from 'react-bootstrap';
 import Contact from '../contact/contact';
 
 export default function About() {
@@ -90,6 +98,36 @@ export default function About() {
           <Contact />
         </Col>
       </Row>
+      <div>
+        <h3 className="nav-text">
+          {' '}
+          Find me on:{' '}
+          <Button
+            variant="info"
+            className="social-button"
+            href="https://github.com/SolidSok"
+            target="_blank"
+            size="sm">
+            <img src={require('./img/github.png')} alt="Github" />
+          </Button>
+          <Button
+            variant="info"
+            className="social-button"
+            href="https://twitter.com/solidsok"
+            target="_blank"
+            size="sm">
+            <img src={require('./img/twitter.png')} alt="twitter" />
+          </Button>
+          <Button
+            variant="info"
+            className="social-button"
+            size="sm"
+            href="https://www.linkedin.com/in/steven-sok-bb2341201/"
+            target="_blank">
+            <img src={require('./img/linkedin.png')} alt="LinkedIn" />
+          </Button>
+        </h3>
+      </div>
     </Container>
   );
 }

@@ -19,41 +19,21 @@ const PortfolioNav = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="nav-bar">
             {' '}
-            <h3 className="nav-text"> Find me on: </h3>
             <Nav>
-              <Button className="social-button" size="sm">
+              <Nav.Item>
+                <Nav.Link href="/">About Me</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="/work">My Work</Nav.Link>
+              </Nav.Item>
+              <Button
+                variant="info"
+                href="resume.pdf"
+                download
+                className="resume">
                 {' '}
-                <a
-                  href="https://github.com/SolidSok"
-                  target="_blank"
-                  rel="noreferrer"
-                  on>
-                  <img src={require('./img/github.png')} alt="Github" />
-                </a>
-              </Button>
-
-              <Button className="social-button" size="sm">
-                {' '}
-                <a
-                  href="https://twitter.com/solidsok"
-                  target="_blank"
-                  rel="noreferrer">
-                  <img src={require('./img/twitter.png')} alt="twitter" />
-                </a>
-              </Button>
-
-              <Button className="social-button" size="sm">
-                <a
-                  href="https://www.linkedin.com/in/steven-sok-bb2341201/"
-                  rel="noreferrer"
-                  target="_blank">
-                  <img src={require('./img/linkedin.png')} alt="LinkedIn" />
-                </a>
-              </Button>
-
-              <a href="resume.pdf" download className="resume">
                 Download my CV
-              </a>
+              </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
