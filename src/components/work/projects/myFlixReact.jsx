@@ -7,11 +7,12 @@ export default function MyFlixReact() {
       {' '}
       <Card.Header>
         <Button
+          className="project-header"
           variant="none"
           href="https://sokflix.netlify.app"
           target="_blank"
           rel="noreferrer">
-          <h2 class="project">myFlix Web App</h2>
+          myFlix Web App
         </Button>
       </Card.Header>{' '}
       <Card.Body>
@@ -31,22 +32,19 @@ export default function MyFlixReact() {
           the front-end and back-end for this application were created from
           scratch by me.
         </Card.Text>
-        <h2>
+        <Button
+          variant="info"
+          href="https://github.com/SolidSok/myFlix-client"
+          target="_blank">
           {' '}
-          <Button
-            variant="info"
-            href="https://github.com/SolidSok/myFlix-client"
-            target="_blank">
-            {' '}
-            Github Repo
-          </Button>{' '}
-          <Button
-            variant="warning"
-            href="https://sokflix.netlify.app"
-            target="_blank">
-            Web Page
-          </Button>
-        </h2>
+          Github Repo
+        </Button>{' '}
+        <Button
+          variant="warning"
+          href="https://sokflix.netlify.app"
+          target="_blank">
+          Web Page
+        </Button>
         <MyFlixCaseStudy />
       </Card.Body>
     </Card>

@@ -27,11 +27,6 @@
   background-color: rgba(255, 255, 255, 0.733);
   padding: 2%;
 }
-.project-text {
-  padding-left: 5px;
-  color: #2b2b2b;
-  text-align: center;
-}
 
 .myflix-case-study {
   display: flex;
@@ -42,12 +37,13 @@
   text-align: center;
   padding: 5px;
   margin: auto;
+  width: 80%;
 }
 .case-study-img {
   width: 15rem;
 }
 .update-user-img {
-  justify-content: end;
+  width: 60%;
 }
 
 .img {
@@ -62,4 +58,9 @@
 
 .cuisine {
   width: 80%;
+}
+
+.project-header {
+  font-size: 2.2rem;
+  font-weight: 550;
 }

@@ -39,8 +39,7 @@ export default function About() {
                   <Badge bg="info">React Native</Badge> <br />
                 </Card.Text>
                 <Card.Text>
-                  {' '}
-                  <Badge bg="info">NodeJS</Badge>
+                  <Badge bg="info">NodeJS</Badge>{' '}
                   <Badge bg="info">Express</Badge>{' '}
                 </Card.Text>
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../work.css';
 import { Container, Image, Modal, Button, Row, Col } from 'react-bootstrap';
 
-export default function MyFlixCaseStudy() {
+export default function EngageBuilderCaseStudy() {
   const [show, setShow] = useState(false);
 
   return (
@@ -12,9 +12,7 @@ export default function MyFlixCaseStudy() {
       </Button>
       <Modal show={show} onHide={() => setShow(false)} size="lg">
         <Modal.Header closeButton>
-          <Modal.Title>
-            <h1>Case Study: myFlix</h1>
-          </Modal.Title>
+          <Modal.Title>Case Study: Engage Builder</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Row className="case-study">

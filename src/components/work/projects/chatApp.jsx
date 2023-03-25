@@ -7,11 +7,12 @@ export function ChatApp() {
       <Card.Header>
         {' '}
         <Button
+          className="project-header"
           variant="none"
           href="https://github.com/SolidSok/chat-app"
           target="_blank"
           rel="noreferrer">
-          <h2 class="project">React Native Chat App</h2>
+          React Native Chat App
         </Button>
       </Card.Header>{' '}
       <Card.Body>
@@ -22,22 +23,17 @@ export function ChatApp() {
         <Badge bg="info">React Native</Badge> <Badge bg="info">Expo</Badge>{' '}
         <Badge bg="info">Firebase</Badge>
         <Card.Text>
-          <p class="project-text">
-            Chat app for mobile devices using React Native. The app will provide
-            users with a chat interface and options to share images and their
-            location.
-          </p>
-          <h2>
-            {' '}
-            <Button
-              variant="warning"
-              href="https://github.com/SolidSok/chat-app"
-              target="_blank">
-              {' '}
-              Github Repo
-            </Button>
-          </h2>
+          Chat app for mobile devices using React Native. The app will provide
+          users with a chat interface and options to share images and their
+          location.{' '}
         </Card.Text>
+        <Button
+          variant="warning"
+          href="https://github.com/SolidSok/chat-app"
+          target="_blank">
+          {' '}
+          Github Repo
+        </Button>
       </Card.Body>
     </Card>
   );
