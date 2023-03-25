@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Badge, Button } from 'react-bootstrap';
+import EngageBuilderCaseStudy from '../caseStudies/engageBuilderCaseStudy';
 
 export default function EngageBuilder() {
   return (
@@ -51,6 +52,7 @@ export default function EngageBuilder() {
           </h2>
         </Card.Text>
       </Card.Body>
+      <EngageBuilderCaseStudy />
     </Card>
   );
 }
